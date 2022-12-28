@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "birthday";
+  src: url("./CANDY___.otf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  background-color: red;
+  font-family: "birthday";
+}
+nav ul {
+  text-align: center;
+  margin: 15px 0;
+  background-color: blueviolet;
+}
+nav ul li {
+  list-style: none;
+  background: burlywood;
+  display: inline-block;
+  border-radius: 20px;
+}
+nav ul li a {
+  display: inline-block;
+  text-decoration: none;
+  /* background-color: blueviolet; */
+  color: rgb(247, 244, 239);
+  padding: 15px 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+span {
+  display: inline-block;
+  background-color: red;
+  margin-top: 30px;
+}
